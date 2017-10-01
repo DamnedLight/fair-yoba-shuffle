@@ -4,7 +4,7 @@ import random
 import itertools
 
 sequence = []
-for player in ['Seröga', 'Oleg', 'Kolän', 'Dimon', 'Yura']:
+for player in ['Seröga', 'Oleg', 'Kolän', 'Dimon', 'Üra']:
     sequence += [player] * 6
 
 random.shuffle(sequence)
