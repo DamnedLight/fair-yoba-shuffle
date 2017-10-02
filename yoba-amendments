@@ -1,0 +1,10 @@
+import random
+import itertools
+
+sequence = []
+for player in ['Seröga', 'Olegue', 'Colänne', 'Dimonne', 'Jura', '-----']:
+    sequence += [player]*5
+    
+random.shuffle(sequence)
+for seqnum, player in itertools.zip_longest(range(1,31),sequence):
+    print("%2s: %s" % (seqnum, player))
